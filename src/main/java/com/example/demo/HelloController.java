@@ -12,6 +12,6 @@ public class HelloController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String home() {
-		return "Hello, World!";
+		return "Hello, Spring Boot!";
 	}
 }
